@@ -1,0 +1,20 @@
+{% extends "layouts/principalLayout.html" %}
+
+{% block title %} {{ data.titulo }} {% endblock %}
+
+{% block body %}
+<section>
+    <div class="container">
+
+        <div class="card">
+            <div class="card-body">
+                <h1 class="message">{{ data.Mensaje }}</h1>
+                <h2 class="message">&darr;</h2>
+                <button>Click me</button>
+            </div>
+        </div>
+ 
+    </div>
+</section>
+
+{% endblock %}
