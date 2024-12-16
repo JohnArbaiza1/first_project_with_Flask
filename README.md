@@ -1,1 +1,1 @@
-# Proyecto de practica con Python y Flask
+# Proyecto de Práctica con Python y Flask
