@@ -1,0 +1,18 @@
+{% extends "layouts/principal_layout.html" %}
+
+{% block title %} Tus Tareas {% endblock %}
+
+{% block body %}
+<section>
+
+    <div class="container">
+        <div class="info">
+            <h2>Organiza tus tareas, trabajo y tu vida</h2>
+            <h3>Flask To Do te ayuda</h3>
+            <img src="{{ url_for('static', filename='IMG/lista.png') }}" alt="" width="250px">
+            <p>Simplifica la planificación y aprovecha tu tiempo al máximo ya sea para trabajar o para jugar.</p>
+        </div>
+    </div>
+
+</section>
+{% endblock %}

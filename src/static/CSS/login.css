@@ -1,0 +1,72 @@
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+}
+
+form{
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(189, 187, 187, 0.781);
+}
+
+.logoLetras{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    text-shadow: 22px 26px 6px rgb(143, 143, 146);
+    color:rgb(241, 238, 238)
+}
+
+.logo{
+    margin-bottom: 6px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.card{
+    border: 1px solid white;
+    border-radius: 6px;
+    width: 400px;
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.card > strong{
+    color: white;
+}
+
+.card > button{
+    background-color: transparent;
+    border: none;
+    color: rgb(37, 76, 202);
+}
